@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AF.Transaction.Entity.WCFTransactionDemo" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AF.Transaction.Entity.WCFTransactionDemo" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="WCFTransactionEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EMail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EmpID" type="ser:guid" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WCFTransactionEntity" nillable="true" type="tns:WCFTransactionEntity" />
+  <xs:complexType name="ArrayOfWCFTransactionEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="WCFTransactionEntity" nillable="true" type="tns:WCFTransactionEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfWCFTransactionEntity" nillable="true" type="tns:ArrayOfWCFTransactionEntity" />
+</xs:schema>

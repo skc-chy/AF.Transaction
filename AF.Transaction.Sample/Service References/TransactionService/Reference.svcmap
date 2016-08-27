@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="02f572c0-4712-4ec5-b473-15c737760ad0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/AF.Transaction.Service/WCFTransactionDemo.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFTransactionDemo.xsd" MetadataType="Schema" ID="00be073c-f95d-451f-9a9c-7df29cbdd15e" SourceId="1" SourceUrl="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?xsd=xsd3" />
+    <MetadataFile FileName="WCFTransactionDemo.wsdl" MetadataType="Wsdl" ID="aaf7692f-3904-416f-a6b7-572b6355c194" SourceId="1" SourceUrl="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?wsdl" />
+    <MetadataFile FileName="WCFTransactionDemo1.xsd" MetadataType="Schema" ID="1db3c81c-0410-434e-adaf-e7733727c849" SourceId="1" SourceUrl="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFTransactionDemo.disco" MetadataType="Disco" ID="604e4674-883c-43dd-8fde-b409b1caa53f" SourceId="1" SourceUrl="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?disco" />
+    <MetadataFile FileName="WCFTransactionDemo2.xsd" MetadataType="Schema" ID="b90438a0-2ec6-4325-ac3b-d49b739f5412" SourceId="1" SourceUrl="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?xsd=xsd4" />
+    <MetadataFile FileName="WCFTransactionDemo3.xsd" MetadataType="Schema" ID="561f4bbd-09b9-4867-8a7f-d872f32a0230" SourceId="1" SourceUrl="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCFTransactionDemo4.xsd" MetadataType="Schema" ID="86d7e1e1-f081-452e-8d55-6d23adcc3bbe" SourceId="1" SourceUrl="http://sukanta-pc/AF.Transaction.Service/WCFTransactionDemo.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
