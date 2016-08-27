@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF.Transaction.Web", "AF.Transaction.Sample\AF.Transaction.Web.csproj", "{92FE2325-4D38-4C6C-8068-8ECBA502827C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF.Transaction.Service", "AF.Transaction.Service\AF.Transaction.Service.csproj", "{737A04B2-CFA1-46CA-9DF1-5C9FDF7256AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF.Transaction.Entity", "AF.Transaction.Entity\AF.Transaction.Entity.csproj", "{D59F0E8F-7182-48E6-B545-AC4AA0C8347D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF.Transaction.Business", "AF.Transaction.Business\AF.Transaction.Business.csproj", "{87CB5BD4-1D9A-4879-BF93-0E3D39CC5A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF.Transaction.Data", "AF.Transaction.Data\AF.Transaction.Data.csproj", "{1D2F96C5-0A4B-430A-A79E-39AF65ABCE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AF.Transaction.Common", "AF.Transaction.Common\AF.Transaction.Common.csproj", "{B2AC2ABA-AEA8-49CD-874C-C896F22BBBE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92FE2325-4D38-4C6C-8068-8ECBA502827C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FE2325-4D38-4C6C-8068-8ECBA502827C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FE2325-4D38-4C6C-8068-8ECBA502827C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FE2325-4D38-4C6C-8068-8ECBA502827C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737A04B2-CFA1-46CA-9DF1-5C9FDF7256AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737A04B2-CFA1-46CA-9DF1-5C9FDF7256AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737A04B2-CFA1-46CA-9DF1-5C9FDF7256AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737A04B2-CFA1-46CA-9DF1-5C9FDF7256AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59F0E8F-7182-48E6-B545-AC4AA0C8347D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59F0E8F-7182-48E6-B545-AC4AA0C8347D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59F0E8F-7182-48E6-B545-AC4AA0C8347D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59F0E8F-7182-48E6-B545-AC4AA0C8347D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CB5BD4-1D9A-4879-BF93-0E3D39CC5A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CB5BD4-1D9A-4879-BF93-0E3D39CC5A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CB5BD4-1D9A-4879-BF93-0E3D39CC5A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CB5BD4-1D9A-4879-BF93-0E3D39CC5A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2F96C5-0A4B-430A-A79E-39AF65ABCE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2F96C5-0A4B-430A-A79E-39AF65ABCE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2F96C5-0A4B-430A-A79E-39AF65ABCE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2F96C5-0A4B-430A-A79E-39AF65ABCE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AC2ABA-AEA8-49CD-874C-C896F22BBBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AC2ABA-AEA8-49CD-874C-C896F22BBBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AC2ABA-AEA8-49CD-874C-C896F22BBBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AC2ABA-AEA8-49CD-874C-C896F22BBBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
