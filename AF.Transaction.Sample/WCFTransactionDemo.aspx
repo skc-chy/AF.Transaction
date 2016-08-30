@@ -6,7 +6,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div style="width: 100%; border-style: inset; border-color: Blue; border-width: thin;">
         <span style="font-size: small">POI : Please check implementation details of Transaction
-            with WCF in interface 'IWCFTransactionDemo.cs' in project 'SampleApplication.Service'</span>
+            with WCF in interface 'IWCFTransactionDemo.cs' in project 'AF.Transaction.Service'</span>
     </div>
     <br />
     <br />
