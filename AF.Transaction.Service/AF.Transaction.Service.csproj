@@ -42,7 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Architecture.Foundation.Transaction, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AF.Transaction.1.0.2\lib\Architecture.Foundation.Transaction.dll</HintPath>
+      <HintPath>..\packages\AF.Transaction.1.0.3\lib\Architecture.Foundation.Transaction.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
